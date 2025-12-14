@@ -1,0 +1,24 @@
+# Python cache files (generated automatically)
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+venv/
+env/
+
+# Environment variables (secrets)
+.env
+
+# Data - NEVER commit large datasets to Git
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
